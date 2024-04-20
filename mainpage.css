@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.outbox{
+    border: solid 1px;
+    height: 120px;
+    display: flex;
+}
+
+#box1,#box2{
+     border: solid 1px;
+     height: 120px;
+
+}
+#box1{
+    width: 200px;
+    background-color: white;
+}
+#box2{
+    width: 1300px;
+    background-color: #6e106e;
+    text-align: center;
+}
+
+#clgname{
+    color: #edf1f5;
+    font-size: 53px;
+}
+
+#text1{
+    font-size: 20px;
+    color: white;
+}
+
+#scrolltext{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navigation{
+    border: solid 1px;
+    height: 55px;
+}
+
+ul li{
+    border: solid 1px;
+    height: 55px;
+    float: left;
+    width: 139.85px;
+    text-align: center;
+    line-height: 55px;
+    background-color:#933993;
+    position: relative;
+    border-radius: 8px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color:rgb(236, 236, 236);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+ul ul{
+    position:absolute ;
+    display: none;
+}
+
+ul li:hover>ul{
+    display: block;
+}
+ul li ul li{
+    width: 250px;
+    background-color:#8d67ca ;
+}
+ul li ul li ul li{
+    width:350px;
+    margin-left: 250px;
+}
+ul ul ul{
+    top:0px;
+
+}
+ul li:hover{
+    background-color: #926292;
+}
+ul li ul li:hover{
+    background-color: rgb(206, 140, 250);
+}
+
+.obox{
+    border: solid 1px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 400px; 
+}
+
+#in1{
+    width: 710px;
+    background-image: url(e.jpeg);
+    background-repeat: no-repeat;
+    background-size: 710px 400px;
+    animation-name: imageschanging;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes imageschanging{
+    10%{
+        background-image: url(road.jpeg);
+    }
+
+    20%{
+        background-image: url(best.jpeg);
+    }
+    
+    30%{
+        background-image: url(busuuuuu.png);
+    }
+
+    40%{
+        background-image: url(akkaaaawww.jpeg);
+    }
+
+    50%{
+        background-image: url(feeling.jpeg);
+    }
+
+}
+#in2,#in3{
+    width: 310px;
+}
+
+
+.out{
+    border: solid 1px;
+    height: 170px;
+    background-color: black;
+
+}
+
+#logo{
+    padding-right:142px ;
+}
+           
+
